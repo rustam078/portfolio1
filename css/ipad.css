@@ -1,0 +1,157 @@
+  /*This Media Query use for iPad Portrait View*/
+  @media only screen and (min-width:732px) and (max-width:991px){
+    .main_nav ul li{ margin: 0 0 0 15px; font-size: 16px; }
+    
+    #particles-js {
+
+        height: 130vh;
+        width: 100%;
+    
+    }
+
+
+    /***********************skill***********************/
+  .cont {
+    width: auto;
+    height: auto;
+    background: -webkit-linear-gradient(left, #53c68a, #8b67c4);
+    display: flex;
+    justify-content: space-around;
+}
+
+       
+
+      
+ .container1 {
+
+     
+    border-radius: 1.4rem;
+    box-shadow: .2rem 1.4rem 4.5rem rgba(0, 0, 0, 0.082);
+    backdrop-filter: blur(6rem);
+    width: auto;
+   height: auto;
+   margin-bottom: 15px;
+   margin-left: 10px;
+  
+   } 
+
+
+
+ 
+   .skills_head p{
+   font-size: 25px;
+   }
+
+
+ 
+/**************************/
+
+ /*****************Qualification************/
+ .container3{
+
+  height: auto;
+ }
+ .qual{
+
+    position: absolute;
+
+    
+ }
+
+ .btn3{
+   font-size: 25px;
+  position: relative;
+  align-items: center;
+    
+ }
+
+
+ 
+.btn3 {
+  
+    animation: glow 2s linear infinite;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  @keyframes glow{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%{color:#b7e6f3;
+        text-shadow: none;
+    }
+    5%,11%,30.1%,100%{color:#fff;
+        text-shadow: 0 0 1rem #2d9ab0,
+                     0 0 2rem #00d4ff,
+                     0 0 3rem #00d4ff, 
+                     0 0 4rem #00d4ff,
+                     0 0 5rem #00d4ff;
+    }
+   
+  }
+  
+ .cont2{
+   
+    height: auto; 
+   width: 100%;
+   display: block;
+  
+ }
+
+ .container3{
+ height: auto;
+  margin-top: 120px;
+  margin-left: 0px;
+  width: 100%;
+  padding: 30px;
+
+}
+
+.container3 h1,p{
+    font-size: 18px;
+}
+
+.imgs{
+    margin-bottom: 40px;
+}
+
+/*****************projects***********************************/  
+
+
+.cont3 {
+    background-color: gold;
+    height: auto;
+    padding: 4.2rem;
+    overflow: hidden; 
+    background: #4b6d8c;
+    font-family: 'Fira Mono', monospace;
+    -webkit-font-smoothing: antialiased;
+    font-size: .88rem;
+    color: #bdbdd5;
+
+}
+
+
+/*********achivement************/
+
+  
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  @media screen and (min-width: 732px){
+    .nav_ico{
+      display: none;
+    } 
+  }
